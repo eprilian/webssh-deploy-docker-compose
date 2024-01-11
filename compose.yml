@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  webssh:
+    image: frmnepri/frmn_webssh:v1
+    container_name: "WebSSH-Sec"
+    ports:
+      - 3005:8888
+    restart: always
